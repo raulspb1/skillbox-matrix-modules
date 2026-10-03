@@ -1,0 +1,6 @@
+build/
+.vscode/
+CMakeUserPresets.json
+VIDEO2/
+matrix/
+matrix_module6_backup/
