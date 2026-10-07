@@ -18,6 +18,9 @@ MATRIXLIB_EXPORT void math_deleteMatrix(Matrix* M);
 MATRIXLIB_EXPORT void math_set(Matrix* M, int row, int col, real value);
 MATRIXLIB_EXPORT void math_print(const Matrix* M);
 
+// Функция умножения матрицы на число (скаляр)
+MATRIXLIB_EXPORT void math_multiplyByScalar(Matrix* M, real scalar);
+
 #ifdef __cplusplus
 }
 #endif
